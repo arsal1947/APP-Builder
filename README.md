@@ -40,7 +40,7 @@ All generated files are saved inside a `generated_project/` folder.
 - ✅ Time Scheduling App (Python)
 
 ## Project Structure
-
+##
 APP-Builder/
 ├── Agent/
 │   ├── graph.py        # LangGraph pipeline definition
@@ -52,7 +52,7 @@ APP-Builder/
 ├── .env.example
 ├── requirements.txt
 └── README.md
-
+##
 ## Setup
 
 **1. Clone the repository**
@@ -81,7 +81,7 @@ Then open `.env` and replace with your actual key from [console.groq.com](https:
 
 ## Usage
 
-Edit `main.py` and change the prompt:
+Edit `Agent/graph.py` and change the prompt:
 
 ```python
 result = agent.invoke(
